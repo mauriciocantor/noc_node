@@ -3,6 +3,7 @@
 ## Infraestructure <-
 
 # dev 
+
 1. Clonar archivo .env.example a .env
 2. Configurar las variables de entorno
 
