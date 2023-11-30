@@ -1,6 +1,8 @@
 .env
 logs/
 .idea/
+/mongo
+/postgres
 # Created by https://www.toptal.com/developers/gitignore/api/node,webstorm,jetbrains
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,webstorm,jetbrains
 
