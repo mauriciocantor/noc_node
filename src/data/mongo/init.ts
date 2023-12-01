@@ -15,9 +15,8 @@ export class MongoDatabase {
                 dbName,
             });
 
-            console.log('Mongo Connected!!');
+            return true;
         }catch (e){
-            console.log('Mongo connection error!!');
             throw e;
         }
     }
