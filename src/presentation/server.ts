@@ -44,9 +44,9 @@ export class Server {
         // emailService.sendEmailWithFileSystemLogs(['mauricio.cantor.p@hotmail.com', 'topomajor1@hotmail.com']);
 
 
-        /*const url = 'https://google.com/';
+        const url = 'https://google.com/';
         // const url = 'http://localhost:3000/';
-        CronService.createJob('*!/5 * * * * *', ()=>{
+        CronService.createJob('*/5 * * * * *', ()=>{
             new CheckServiceMultiple(
                 [
                     fsLogRepository,
@@ -57,7 +57,7 @@ export class Server {
                 (error)=>console.log(error) // se pueden obviar estos callbacks
             ).execute(url);
             // new CheckService().execute('http://localhost:3000/');
-        });*/
+        });
 
         /*CronService.createJob('*!/3 * * * * *', ()=>{
             const date = new Date();

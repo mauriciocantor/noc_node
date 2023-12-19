@@ -8,11 +8,11 @@ describe('envs.plugins.ts', ()=>{
             MAILER_SECRET_KEY: 'rjzduduotsawjwme',
             PROD: false,
             MAILER_SERVICE: 'gmail',
-            MONGO_URL: 'mongodb://mauricio:123456789@localhost:27017',
+            MONGO_URL: 'mongodb://mauricio:123456789@localhost:27018',
             MONGO_DB_NAME: 'NOC-TEST',
             MONGO_USER: 'mauricio',
             MONGO_PASS: '123456789',
-            POSTGRES_URL: 'postgresql://mauricio:123456789@localhost:5432/NOC',
+            POSTGRES_URL: 'postgresql://mauricio:123456789@localhost:5433/NOC',
             POSTGRES_DB: 'NOC-TEST',
             POSTGRES_USER: 'mauricio',
             POSTGRES_PASS: '123456789'

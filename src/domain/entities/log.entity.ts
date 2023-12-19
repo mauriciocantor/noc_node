@@ -39,7 +39,7 @@ export class LogEntity {
         if(!origin) throw new Error('Origin can not empty');
         if(!createdAt) throw new Error('CreatedAt can not empty');
 
-        return new LogEntity({message, level, createdAt, origin});
+        return new LogEntity({message, level, createdAt: new Date(createdAt), origin});
     }
 
     static fromObject(object: {[key:string]: any}): LogEntity{
@@ -47,7 +47,7 @@ export class LogEntity {
         return new LogEntity({
             message,
             level,
-            createdAt,
+            createdAt: new Date(createdAt),
             origin
         });
     }
